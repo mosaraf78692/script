@@ -1,28 +1,3 @@
-# #!/bin/bash
- 
-# # Function to get system information
-# get_system_info() {
-#     echo "Device Name: $(hostname)"
-#     echo "Device Manufacturer: Apple"
-#     echo "Device Model: $(sysctl -n hw.model)"
-#     echo "Device Serial Number: $(system_profiler SPHardwareDataType | awk '/Serial/ {print $4}')"
-#     echo "Processor: $(sysctl -n machdep.cpu.brand_string)"
-#     echo "RAM Capacity: $(system_profiler SPHardwareDataType | awk '/Memory/ {print $2$3}')"
-#     echo "Storage Capacity: $(df -H / | awk 'NR==2 {print $2}')"
-#     echo "Storage Type: $(diskutil info / | awk '/Media Type/ {print $3}')"
-#     echo "Storage BusType: $(system_profiler SPSerialATADataType | awk '/Medium Type/ {print $3}')"
-#     echo "OS: $(sw_vers -productName)"
-#     echo "OS Version: $(sw_vers -productVersion)"
-#     echo "OS Build: $(sw_vers -buildVersion)"
-#     echo "OS Architecture: $(uname -m)"
-# }
- 
-# # Call the function to get and display system information
-# get_system_info
-
-
-
-
 #!/bin/bash
 
 # Function to get system details
